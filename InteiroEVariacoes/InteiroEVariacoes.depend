@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1753838026 source:/home/alex/Documentos/ESTUDOS/C/InteiroEVariacoes/main.c
+	<stdio.h>
+	<stdlib.h>
+
