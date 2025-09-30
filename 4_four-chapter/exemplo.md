@@ -1,6 +1,7 @@
 # Exemplos - Capitulo 4
 Estudo da linguagem C, através do livro Linguagem C - Luís Damas | Décima Edição
 
+***___Instrução while___***
 ## 1. prog0401.c
 * <p style="text-align: justify">Escreva um programa que coloque na tela os primeiros 10 números inteiros.
 </p>
@@ -19,6 +20,10 @@ Estudo da linguagem C, através do livro Linguagem C - Luís Damas | Décima Edi
 
 ## 5. prog0405.c
 * <p style="text-align: justify">Escreva um programa das cinco primeiras tabuadas (tabuada do 1, 2, ... tabuada do 5).
+</p>
+
+## 6. prog0406.c
+* <p style="text-align: justify">Altere o programa anterior de forma queseja colocada uma linha em branco depois de cada tabuada.
 </p>
 
 # Exercícios Propostos - Capitulo 3
