@@ -26,6 +26,85 @@ Estudo da linguagem C, através do livro Linguagem C - Luís Damas | Décima Edi
 * <p style="text-align: justify">Altere o programa anterior de forma queseja colocada uma linha em branco depois de cada tabuada.
 </p>
 
+##
+***___Instrução for___***
+
+## 7. prog0407.c
+* <p style="text-align: justify">Escreva um programa que calcule a soma e o produto dos n primeiros números naturais.
+</p>
+
+## 8. prog0408.c
+* <p style="text-align: justify">Escreva um programa que coloque na tela as cincos primeiras tabuadas, parando a tela depois de cada uma delas ser escritas.
+</p>
+
+##
+***___Instrução do...while___***
+
+## 9. prog0409.c
+* <p style="text-align: justify">Escreva um programa que apresente um menu com as opções Clientes, fornecedores, Encomendas, Sair.
+</p>
+<p style="text-align: justify">O programa deve apresentar as opção escolhida pelo usuário até que deseje sair.
+</p>
+
+## 10. prog04010.c
+* <p style="text-align: justify">Escreva um programa que coloque na tela as cincos primeiras tabuadas, parando a tela depois de cada uma delas ser escritas.
+</p>
+
+## 11. prog0411.c
+* <p style="text-align: justify">Escreva um programa que mostre os 10 primeiros números pares.
+</p>
+
+## 12. prog0412.c
+* <p style="text-align: justify">Qual a saida do seguinte programa?
+</p>
+
+```
+#include <stdio.h>
+int main() {
+    int i;
+    for(i =1; i <= 100; i=i+1) {
+        if (i ==30)
+            break;
+        else
+            printf("%2d\n", 2*i);
+    }
+    printf("FIM DO LAÇO\n");
+}
+```
+
+## 13. prog0413.c
+* <p style="text-align: justify">Escreva um programa que coloque os seguintes números na tela:
+</p>
+
+```
+1
+
+1 2
+
+1 2 3
+
+...
+
+1 2 3 4 5 6 7 8 9 10
+```
+
+## 14. prog0414.c
+* <p style="text-align: justify">O exemplo anterior poderia ter sido escrito da seguinte forma:
+</p>
+
+```
+int i, j;
+for (i = 1; i <= 10; i++) {
+    for (j = 1; j <= i; j++) {
+        printf("%d", j);
+        if (j == i) {
+            break; // Já depois de escrever j
+        }
+    }
+    putchar('\n');
+}
+```
+
 # Exercícios Propostos - Capitulo 3
 
 1. <p style="text-align: justify">Por que razão variáveis do tipo float não devem armazenar valores do lógicos?
