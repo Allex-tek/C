@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/alex/Documentos/ESTUDOS/C/3_three-chapter/solved-exercises/prog0318",
-      "program": "/home/alex/Documentos/ESTUDOS/C/3_three-chapter/solved-exercises/prog0318/build/Debug/outDebug",
+      "cwd": "/home/alex/Documentos/ESTUDOS/C/4_four-chapter/solved-exercises/prog0411",
+      "program": "/home/alex/Documentos/ESTUDOS/C/4_four-chapter/solved-exercises/prog0411/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
